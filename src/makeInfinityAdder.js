@@ -3,8 +3,8 @@
 /***
  * @return {function}
  */
-function makeAdder(num1 = 0) {
-  let sum = num1;
+function makeAdder() {
+  let sum = 0;
 
   const adder = (num2) => {
     if (num2 === undefined) {
